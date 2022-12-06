@@ -68,6 +68,7 @@ const reclamation = {
   reclamationId: "string",
   userId: "string",
   content: "string",
+  status: StatusEnum,
 };
 
 // day off demand
@@ -77,4 +78,19 @@ const employeeDemand = {
   userId: "string", // must be an employee
   reason: EmployeeDemandEnum,
   comment: "string",
+  status: StatusEnum,
 };
+
+// candidate
+
+const candidature = {
+  candidatureId: "string",
+  userId:"string",
+  languages: "string[]",
+  softSkills: "string[]",
+  technicalSkills: "string[]",
+  education: "string[]",
+  workExperiene: "string[]",
+  rating: "number", // 0 < x < 10
+  status: StatusEnum,
+}
