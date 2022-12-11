@@ -2,6 +2,8 @@
 const user = {
   userId: "integer", // if possible can we do C-458, S-789, EN-879, EM-256 add the letter indicating role
   username: "string",
+  firstName: "string",
+  lastName: "string",
   dateOfBirth: "date",
   email: "string",
   phoneNumber: "string",
